@@ -24,9 +24,21 @@ const Calculator = () => {
     }
   };
 
-  const handleClear = () => setCalculate("");
+  const handleClear = () => {
+    setCalculate("");
+    setResult("0");
+  };
 
-  const handleDelete = () => setCalculate(calculate.slice(0, -1));
+  const handleDelete = () => {
+    if (calculate == "0") return;
+
+    const calculateWithDelete = calculate.slice(0, -1);
+
+    setCalculate(calculateWithDelete);
+    setResult(
+      calculateWithDelete == "" ? "0" : eval(calculateWithDelete).toString()
+    );
+  };
 
   const handleEquals = () => setCalculate(eval(calculate).toString());
 

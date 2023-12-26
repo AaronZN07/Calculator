@@ -13,6 +13,7 @@
 
     .operation {
         font-size: 2rem;
+        overflow-x: auto;
     }
 
     .result {
@@ -20,5 +21,6 @@
         text-align: center;
         align-self: end;
         color: #c0c0c0;
+        margin: 0 .5rem;
     }
 }
