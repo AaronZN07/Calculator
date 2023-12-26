@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem 0;
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: .5rem;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+
+    .double-column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 2.1;
+    }
+}

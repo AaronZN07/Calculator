@@ -1,0 +1,10 @@
+.calculator {
+    background-color: #3a4655;
+    border-radius: 5px;
+    padding: .7rem;
+    width: 25rem;
+
+    .buttons {
+        flex-direction: column-reverse;
+    }
+}

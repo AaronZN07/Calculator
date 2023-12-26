@@ -1,0 +1,16 @@
+//abstracts
+@import "./abstracts/variables";
+@import "./abstracts/media";
+//base
+@import "./base/base";
+@import "./base/resets";
+//layout
+@import "./layout/body";
+//components
+@import "./components/container";
+@import "./components/center";
+@import "./components/flex";
+
+html {
+  font-family: $font;
+}

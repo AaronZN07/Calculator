@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto;
+
+  @include xs() {
+    width: 97%;
+  }
+  @include sm() {
+    width: 93%;
+  }
+  @include md() {
+    width: 90%;
+  }
+  @include lg() {
+    width: 90%;
+  }
+  @include xl() {
+    width: 85%;
+  }
+  @include xxl() {
+    width: 80%;
+  }
+}
